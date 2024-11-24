@@ -1304,9 +1304,13 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
 
+        .quote-background {
+          left: 10px;
+          width: 10px;
+        }
+
         h2 {
-          margin-left: 26px;
-          margin-top: -175px;
+          margin-left: 26px; 
           font-size: 24px;
         }
 
