@@ -846,8 +846,7 @@ header .header-wrapper .hamburger .hamb-btn::after {
     margin-bottom: 0px;
   }
   main .statistics-section .stats-content .stats .stats-item {
-    align-items: center;
-    text-align: center;
+    margin-left: -10px;
   }
   main .statistics-section .stats-content .stats .stats-item .stats-value {
     align-items: center;
@@ -1177,6 +1176,9 @@ header .header-wrapper .hamburger .hamb-btn::after {
     display: grid;
     margin-left: 140px;
     text-align: center;
+  }
+  main .trading-section .stats-content .stats .stats-item {
+    margin-left: -100px;
   }
   main .trading-section .stats-content .stats .stats-item h2 {
     font-size: 20px;
